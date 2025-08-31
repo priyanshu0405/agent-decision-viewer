@@ -20,24 +20,17 @@ Follow these steps to get the development environment running on your local mach
 
 #### 1. Install Dependencies
 
-bash
+```bash
 npm install
-
+```
 
 #### 2. Run the Development Server
 
-bash
+```bash
 npm run dev
-
+```
 
 Open [http://localhost:9002](http://localhost:9002) with your browser to see the application.
-
-#### 3. Run Tests
-
-To run the automated tests for the project, use:
-
-bash
-npm test
 
 
 ---
