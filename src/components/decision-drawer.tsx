@@ -1,24 +1,17 @@
 'use client';
 
-import { useState } from 'react';
 import type { Decision } from '@/types/decision';
-import { summarizeDecisionReasoning } from '@/ai/flows/summarize-decision-reasoning';
-import { Button } from '@/components/ui/button';
 import {
   Sheet,
   SheetContent,
   SheetHeader,
   SheetTitle,
   SheetDescription,
-  SheetFooter,
 } from '@/components/ui/sheet';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
-import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
-import { Loader } from '@/components/icons';
 import { maskCustomerId } from '@/lib/utils';
-import { Sparkles } from 'lucide-react';
 
 type DecisionDrawerProps = {
   decision: Decision;
